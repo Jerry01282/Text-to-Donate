@@ -1,0 +1,11 @@
+services:
+  mongodb:
+    image: mongo:5.0      
+    container_name: campaign-mongo
+    ports:
+      - "27017:27017"     
+    volumes:
+      - campaigndb_data:/data/db  
+
+volumes:
+  campaigndb_data:

@@ -1,0 +1,35 @@
+.status-container {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    height: 15rem;
+    position: relative;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    bottom: 7rem;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    justify-items: center;
+    align-items: center;
+}
+
+.status-container p {
+    margin-right: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .status-container{
+        width: 25vw;
+        height: 25rem;
+        bottom: 2rem;
+    }
+
+    .status-container p {
+        margin-right: 15px;
+        font-size: 1.5rem;
+    }
+}
