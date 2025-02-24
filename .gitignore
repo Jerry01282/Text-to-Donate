@@ -1,12 +1,8 @@
-backend/node_modules/
-frontend/node_modules/
-backend/.env
-frontend/.env
+Back_end/node_modules/
+Front_end/node_modules/
+Back_end/.env
+Front_end/.env
 
-backend/dist/
-frontend/dist/
+Back_end/dist/
+Front_end/dist/
 
-*.log
-
-.DS_Store
-Thumbs.db
