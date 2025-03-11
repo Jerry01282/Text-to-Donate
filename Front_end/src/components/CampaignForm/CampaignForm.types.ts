@@ -1,4 +1,6 @@
 export interface CampaignFormProps {
-    onChange: (status: boolean) => void;
-    messageStatusChange: (status: boolean) => void;
+    deleteStatus: boolean;
+    changeDeleteStatus: React.Dispatch<React.SetStateAction<boolean>>;
+    onChange: React.Dispatch<React.SetStateAction<boolean>>;
+    messageStatusChange: React.Dispatch<React.SetStateAction<boolean>>;
 }

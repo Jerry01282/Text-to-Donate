@@ -37,7 +37,7 @@ export const modifyCampaign = async (req: Request, res: Response): Promise<void>
 };
 
 export const deleteCampaign = async (req: Request, res: Response): Promise<void> => {
-    const {code} = req.body;
+    const {code} = req.query;
     const codeExist = await Campaign.findOne({code});
 
     if (!codeExist) {

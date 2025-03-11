@@ -18,6 +18,19 @@
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.other-button {
+    background-color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.other-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #333333;
+}
+
 @media screen and (min-width: 768px) {
     .form-container {
         width: 40vw;
