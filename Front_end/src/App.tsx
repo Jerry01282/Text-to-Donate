@@ -1,6 +1,6 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import CampaignForm from "./components/CampaignForm/CampaignForm";
-import StatusMessage from "./components/Status/StatusMessage";
+import CampaignForm from "./services/apps/views/CampaignForm/CampaignForm";
+import StatusMessage from "./services/apps/views/Status/StatusMessage";
 import {useState} from "react";
 import './App.css';
 
